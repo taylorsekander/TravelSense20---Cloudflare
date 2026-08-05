@@ -1,0 +1,13 @@
+# Files that must NOT be published as public static assets.
+# _worker.js is server-side code; publishing it would expose it to anyone.
+_worker.js
+wrangler.json
+wrangler.jsonc
+wrangler.toml
+.assetsignore
+.gitignore
+node_modules
+*.md
+netlify.toml
+chat.js
+hello.js
